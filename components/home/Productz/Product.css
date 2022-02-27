@@ -1,6 +1,6 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 250px;
     margin: auto;
     text-align: center;
     font-family: arial; 
@@ -23,11 +23,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border:1px solid white;
    display:none;
-   margin-top: 15px;
+   margin-top: 10px;
    float:right;
    background-color:#F5F5F5;
    width:400px;
    height:450px;
+   border-radius: 5px;
    overflow-y:scroll;
  
  }
@@ -87,10 +88,10 @@
 display:flex;
 
   }
-  /* .img_desc >p{
-    font-size: small;
-    background-color: blueviolet;
-  } */
+  .img_desc >p{
+    font-size:14px;
+   
+  }
   .qty_discount{
     display:flex;
     border:2px solid white;
@@ -102,10 +103,10 @@ display:flex;
   .top_tag{
     background-color:#fc278f;
     color:white;
-    height:40px;
+    height:37px;
     font-weight: 600;
    padding-top: 8px;
-  
+  border-radius: 5px;
   }
   .discount_price{
 padding-right: 10px;
@@ -126,13 +127,18 @@ font-weight:700;
   text-align: justify;
   padding-left: 10px;
 }
-.row_1 ,.row_2, .row_3, .row_4 {
+.row_1 ,.row_2, .row_3, .row_4,.row_0 {
   display:flex;
   justify-content: space-between;
+}
+.row_0{
+  color:green;
 }
 .payment_box{
  /* border:1px solid black; */
  margin-top: 20px;
+ display:none;
+ background-color: white;
 }
 .productzz{
   padding-left: 10px;
@@ -150,10 +156,12 @@ font-weight:700;
   border-radius: 10px;
   display:flex;
   padding-top:6px;
+  text-decoration: none;
 }
 .proceed_btn1{
   padding-top:10px;
   padding-left: 8px;
+
 }
 .bundle_it{
  
@@ -176,7 +184,8 @@ font-weight:700;
   height:20px;
 }
 .payment_details_tag{
- 
+ padding-top: 5px;
   font-weight: 700; 
   height:30px;
 }
+

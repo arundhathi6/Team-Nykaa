@@ -1,8 +1,15 @@
-import { ADD_DATA,DELETE_DATA } from "./actionTypes";
+import { ADD_DATA,DELETE_DATA,TOTAL_AMOUNT } from "./actionTypes";
 
 export const addData=(payload)=>{
     return{
         type:ADD_DATA,
+        payload,
+    };
+};
+
+export const totalAmount=(payload)=>{
+    return{
+        type:TOTAL_AMOUNT,
         payload,
     };
 };

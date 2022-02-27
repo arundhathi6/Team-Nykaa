@@ -1,5 +1,5 @@
 import Carousel from 'react-material-ui-carousel'
-import { bannerData } from '../constant/data'
+import { bannerData } from '../../constant/data'
 import { makeStyles } from '@material-ui/core'
 
 

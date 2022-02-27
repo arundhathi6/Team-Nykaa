@@ -3,7 +3,7 @@ import  "./Product.css";
 import {useDispatch,useSelector} from "react-redux"
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 import { useState, useEffect } from "react";
-import { addData,deleteData } from "../../redux/actions";
+import { addData,deleteData } from "../../../redux/actions";
 // import {store} from "../../redux/store";
 export const Products = ()=>{
   const [productz, setproductz] = useState([])
