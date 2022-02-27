@@ -1,0 +1,17 @@
+.body_success {
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+/* .img_success {
+    width: 100px;
+} */
+
+.button_success {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border:none;
+    border-radius: 6px;
+}
