@@ -28,7 +28,7 @@ Hi reader, you might have visited, read, and heard about the Nykaa website, Nyka
              <li>CSS</li>
             <li>NodeJs</li></ul>
   <h4>Thes are the short overview of our project and check our works by downloading the files for more understanding.</h4>
-  <h4>Thank you</h4>
+  <h4>Thank you 🙌</h4>
             
            
 
