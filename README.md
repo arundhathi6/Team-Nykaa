@@ -2,7 +2,7 @@
 Nykaa is a web application that sells beauty, wellness and fashion products across websites and mobile apps.
 <img src="https://techstory.in/wp-content/uploads/2020/05/nykaa-funding.png">
 <h3>About this project: 🙌</h3>
-Hi reader, you might have visited, read, and heard about the Nykaa website, Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 84 offline stores. In 2020, it became the first Indian unicorn startup headed by a woman & This is our team project, we built the clone of this website 5 Construct days at Masai School in unit-5.
+Hi reader, you might have visited, read, and heard about the Nykaa website, Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 84 offline stores. In 2020, it became the first Indian unicorn startup headed by a woman & This is our team project, we built the clone of this website in 5 Constructive days at Masai School in unit-5.
 <h3>Our Team Members ❤️</h3>
    <a href="https://github.com/arundhathi6">Arundhathi R Menon</a><br>
     <a href="https://github.com/TanmayShirsat">Tanmay Shirsat</a><br>
