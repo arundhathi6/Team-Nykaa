@@ -2,7 +2,7 @@
   display: flex;
   list-style: none;
   margin-top: 10px;
-  min-width: 80%;
+  max-width: 100%;
 }
 .icon {
   width: 80px;
@@ -11,7 +11,7 @@
   margin-top: none;
 }
 .list {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .list:hover {
   color: #fc2779;
@@ -19,15 +19,15 @@
 .icon1 {
   height: 20px;
   margin-right: 10px;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 .sign {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 .input {
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .list1 {
   display: flex;

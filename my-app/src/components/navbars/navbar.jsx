@@ -27,17 +27,17 @@ export const Navbar = () => {
       </ul>
       <hr></hr>
       <ul className="list1">
-        <li   className='list2'>Makeup</li>
-        <li className='list2'>Skin</li>
-        <li className='list2'>Hair</li>
-        <li className='list2'>Appliances</li>
-        <li className='list2'>Personal Care</li>
-        <li className='list2'>Natural</li>
-        <li className='list2'>Mom & Baby</li>
-        <li className='list2'>Health & Wellness</li>
-        <li className='list2'>Men</li>
-        <li className='list2'>Fragance</li>
-        <li className='list2'>LUXE</li>
+        <li className="list2">Makeup</li>
+        <li className="list2">Skin</li>
+        <li className="list2">Hair</li>
+        <li className="list2">Appliances</li>
+        <li className="list2">Personal Care</li>
+        <li className="list2">Natural</li>
+        <li className="list2">Mom & Baby</li>
+        <li className="list2">Health & Wellness</li>
+        <li className="list2">Men</li>
+        <li className="list2">Fragance</li>
+        <li className="list2">LUXE</li>
         <button className="btn">Offer</button>
       </ul>
     </>
