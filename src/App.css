@@ -1,0 +1,75 @@
+body{
+  background-color:#F3F3F3 ;
+}
+/* .backparent{
+  background-color: #F3F3F3;
+} */
+.signin-box{
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 70px;
+  border-radius: 5px;
+  border: solid #00000029 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.close-btn{
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.header1{
+  color: #000F1D;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.para1{
+  color: #001325;
+  font-size: 18px;
+  opacity: .92;
+  line-height: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  letter-spacing: .28px;
+}
+.border{
+border-bottom: 1px solid rgba(0,19,37,.16);
+}
+.button1{
+  background-color: #FC2779;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 8px 8px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  color: #FFFFFF;
+  border: 1px solid #ebebeb;
+  width: 310px;
+}
+
+.googlebutton
+{
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  color: #FFFFFF;
+  border: 1px solid #ebebeb;
+  text-align: center;
+}
+
+.but{
+  color: #FC2779;
+}
+
+.agree{
+  color: #001325;
+  font-size: 12px;
+}
