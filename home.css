@@ -1,0 +1,205 @@
+body {
+  background-color: #f5f5f5;
+}
+#mainheading {
+  display: flex;
+  padding: 0px 250px 0px 100px;
+}
+.mainlogo {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+}
+#logoimg {
+  width: 150px;
+}
+#logosearch {
+  padding: 0px 0px 0px 80px;
+  border-radius: 5px;
+}
+#masai {
+  width: 40px;
+  font-size: 26px;
+  color: pink;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  left: 28px;
+  bottom: 50px;
+  left: 23px;
+}
+.favorite {
+  margin-right: 30px;
+}
+
+.addtocart > img {
+  height: 30%;
+  width: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.favorite > img {
+  height: 30%;
+  width: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: pink;
+}
+.secheading {
+  display: flex;
+  margin: auto;
+  padding: 0px 300px 0px 100px;
+}
+.seclogo {
+  padding: 5px;
+  font-size: 15px;
+  margin: auto;
+  list-style: none;
+}
+
+#lid {
+  width: 100%;
+}
+#singles {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+.skincare {
+  margin-left: 120px;
+}
+#minimalist {
+  padding: 1%;
+}
+#spot {
+  text-align: center;
+}
+#minimalist:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#fifdays {
+  margin-left: 130px;
+  padding: 1%;
+}
+.fitwidth {
+  width: 600px;
+  height: 338px;
+}
+.bitwidth {
+  width: 20.5%;
+}
+.beauty {
+  margin-left: 300px;
+}
+.wholefooter {
+  width: 100%;
+  height: 500px;
+}
+
+.footer-container {
+  background-color: #8c8d94;
+  width: 100%;
+  height: 75%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-1 {
+  padding: 40px 70px 0px 30px;
+}
+
+.footer-2 {
+  padding: 40px 50px 0px 70px;
+}
+
+.footer-3 {
+  padding: 40px 50px 0px 70px;
+}
+#white {
+  color: white;
+}
+
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: #d81b60;
+}
+
+.footer-email-form {
+  padding: 40px 80px 50px 50px;
+  font-size: 10px;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+.sfooter {
+  width: 100%;
+  height: 17%;
+  background-color: #ec407a;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+#terms {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  margin: 20px 370px;
+}
+li {
+  list-style: none;
+}
+#lovediv {
+  display: flex;
+}
+.some {
+  padding: 40px 100px 50px 50px;
+}
+i {
+  padding: 17px;
+  color: black;
+}
+.seclogo:hover {
+  border-bottom: 1px solid black;
+}
+.mainlogo:hover {
+  border-bottom: 1px solid black;
+}
+#logosearch:hover {
+  border-bottom: none;
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
