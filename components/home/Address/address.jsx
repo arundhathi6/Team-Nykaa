@@ -150,7 +150,11 @@ export const Address=()=>{
                   
                 </div>
                 {/* ******* */}
+<<<<<<< HEAD
             <button id="pay_aa"><Link to={"/pro/cart/address/payment" } style={{textDecoration:"none",color:"white"}}>PAY</Link></button>
+=======
+            <button id="pay_aa"><Link to={"/cart/address/payment" } style={{textDecoration:"none",color:"white"}}>PAY</Link></button>
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
           </div>
           </div>
          

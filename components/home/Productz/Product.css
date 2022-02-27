@@ -13,21 +13,34 @@
    height: 80px;
  }
  .shopping_bag{
+<<<<<<< HEAD
    color:black;
    display:flex;
    flex-direction: row-reverse;
    padding:30px 30px 0 30px;
    margin-top: -30%;
+=======
+   color:white;
+   display:flex;
+   flex-direction: row-reverse;
+   padding:30px 30px 0 30px;
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
 
  }
  .sliding_bar{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border:1px solid white;
    display:none;
+<<<<<<< HEAD
    margin-top: -8%;
    float:right;
    background-color:#F5F5F5;
   z-index: -15px;
+=======
+   margin-top: 10px;
+   float:right;
+   background-color:#F5F5F5;
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
    width:400px;
    height:450px;
    border-radius: 5px;
@@ -73,7 +86,11 @@
   .off{
     color: #fc278f;   
   }
+<<<<<<< HEAD
   .containerr{
+=======
+  .container{
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
     
    margin-top: 100px;
     display: grid;

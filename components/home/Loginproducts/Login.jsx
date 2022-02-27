@@ -59,7 +59,11 @@ export const Login=()=>{
             <hr></hr>
             <br></br>
             <p>I do not any more benefits from Nykaa</p>
+<<<<<<< HEAD
             <button id="guest_button_aa"><Link to={"/pro/cart/address" } style={{textDecoration:"none",color:"#fc278f"}}>CONTINUE AS GUEST</Link></button>
+=======
+            <button id="guest_button_aa"><Link to={"/cart/address" } style={{textDecoration:"none",color:"#fc278f"}}>CONTINUE AS GUEST</Link></button>
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
             </div>
         </div>
 

@@ -97,7 +97,11 @@ export const Payment = ()=>{
 
                 <input className="payment_inputz" id="cvv" type="text" placeholder="CVV" maxlength="3" />
 
+<<<<<<< HEAD
           <button id="address_button_zzz"><Link to={"/pro/cart/address/payment/success" } style={{textDecoration:"none",color:"white"}}>PAY NOW</Link></button>
+=======
+          <button id="address_button_zzz"><Link to={"/cart/address/payment/success" } style={{textDecoration:"none",color:"white"}}>PAY NOW</Link></button>
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
         </div>
       </div>
       <div id="right_div_zzz">

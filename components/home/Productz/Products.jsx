@@ -4,7 +4,10 @@ import {useDispatch,useSelector} from "react-redux"
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 import { useState, useEffect } from "react";
 import { addData,deleteData } from "../../../redux/actions";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
 // import {store} from "../../redux/store";
 export const Products = ()=>{
   const [productz, setproductz] = useState([])
@@ -38,7 +41,11 @@ console.log(productz)
 
 
  return(
+<<<<<<< HEAD
    <div className="containerr">
+=======
+   <div className="container">
+>>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
  {
  productz.map((e) =>{
 // return <Userdata price = {e.price} image={e.image} name={e.name} discount={e.discount} rating={e.rating} id={e.id} />
