@@ -31,16 +31,18 @@
 .list1 {
   display: flex;
   list-style: none;
+  justify-content: left;
+  margin-left: none;
 }
 .list2 {
-  margin-left: 20px;
+  margin-left: 2%;
   color: #9c95a5;
 }
 .btn {
-  margin-left: 20px;
+  margin-left: 5%;
   width: 100px;
   background-color: #fc2779;
 }
-.list2 :hover{
+.list2:hover {
   color: #fc2779;
 }
