@@ -1,19 +1,46 @@
 .nav {
   display: flex;
   list-style: none;
-  margin-top: none;
+  margin-top: 10px;
 }
 .icon {
   width: 80px;
-  height: 80px;
+  height: 70px;
   margin-left: 10px;
-  margin-top: 0%;
+  margin-top: none;
 }
-.list{
-    margin-left:15px;
+.list {
+  margin-left: 25px;
 }
-.icon1{
-    height: 20px;
-    margin-right: 10px;
-    margin-left: 30px;
+.list:hover {
+  color: #fc2779;
+}
+.icon1 {
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.sign {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.input {
+  margin-left: 40px;
+}
+.list1 {
+  display: flex;
+  list-style: none;
+}
+.list2 {
+  margin-left: 20px;
+  color: #9c95a5;
+}
+.btn {
+  margin-left: 20px;
+  width: 100px;
+  background-color: #fc2779;
+}
+.list2 :hover{
+  color: #fc2779;
 }
