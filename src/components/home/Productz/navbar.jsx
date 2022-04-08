@@ -54,7 +54,6 @@ useEffect(()=>{
 
 
 
-<<<<<<< HEAD
    return(<div>
 
 <ul className="nav">
@@ -92,7 +91,7 @@ useEffect(()=>{
         </li>
       </ul>
       <hr></hr>
-      <ul className="list1">
+      {/* <ul className="list1">
         <li className="list2">Makeup</li>
         <li className="list2">Skin</li>
         <li className="list2">Hair</li>
@@ -102,7 +101,7 @@ useEffect(()=>{
         <li className="list2">Mom & Baby</li>
         <li className="list2">Health & Wellness</li>
        
-      </ul>
+      </ul> */}
 
 
 
@@ -111,28 +110,15 @@ useEffect(()=>{
        
           {/* ****shipping Basket**** */}
         {/* <span className="shopping_bag" onClick={()=>{
-=======
-   return(<div className="navbar">
-       
-          {/* ****shipping Basket**** */}
-        <span className="shopping_bag" onClick={()=>{
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
             let zyx = document.getElementById("payment_box1");
              let xyz = document.getElementById("sliding_bar1");
                 xyz.style.display=="block"?xyz.style.display="none":xyz.style.display="block";
                items.length==0?zyx.style.display="none":zyx.style.display="block";
-<<<<<<< HEAD
                
-=======
-               //  if(items.length==0){
-               //    xyz.style.display="none" 
-               //  }
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
             console.log("checking..")
 
          
      }}><ShoppingBasketIcon></ShoppingBasketIcon>
-<<<<<<< HEAD
      <button className="cart_itemzz">{items.length}</button></span> */}
        {/* ****shipping Basket**** */}
 
@@ -141,12 +127,9 @@ useEffect(()=>{
   
        {/* ********complete sliding window******* */}
 
-=======
-     <button className="cart_itemzz">{items.length}</button></span>
-       {/* ****shipping Basket**** */}
-  
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
-
+    
+        
+       
    <div id="sliding_bar1" className="sliding_bar">
       <div className= "black_border">
          <div  className="top_tag">Shopping Bag({items.length})</div>
@@ -231,11 +214,7 @@ useEffect(()=>{
                     <p className="productzz">₹{total_amount}</p>
                   </div>
                   <div >
-<<<<<<< HEAD
                      <Link to={"/pro/cart"} className="prizz proceed_btn">
-=======
-                     <Link to={"/cart"} className="prizz proceed_btn">
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
                      <button className="prizz proceed_btn proceed_btn1 ">PROCEED</button>
                   <ArrowForwardIosIcon className="prizz proceed_btn"></ArrowForwardIosIcon>
                      </Link>
@@ -246,13 +225,9 @@ useEffect(()=>{
                </div>
    </div>
    </div>
-<<<<<<< HEAD
+ 
 
-
-   {/* ********complete sliding window******* */}
-=======
-   
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
+  
            
    </div>
   )

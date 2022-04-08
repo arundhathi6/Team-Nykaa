@@ -1,27 +1,40 @@
-import './Payment.css';
-import {Link} from "react-router-dom";
-import {useSelector} from "react-redux";
-export const Payment = ()=>{
+import "./address.css";
+import {Link} from "react-router-dom"
+import { useSelector } from "react-redux";
+
+export const Address=()=>{
     const {items,total_amount} = useSelector((store) => {
         return store.bag;
        });
-    const options = [ { label:1, value:1}, { label:2, value:2}, { label:3, value:3}, { label:4, value:4}, { label:5, value:5}]
+
+       const options = [ { label:1, value:1}, { label:2, value:2}, { label:3, value:3}, { label:4, value:4}, { label:5, value:5}]
        
-    let sum=0;
-    let bag_tot=0;
-    items.map((e)=>{
-    let add= Math.floor(e.price-(e.discount/100*e.price))
-    sum=sum+add;
-    bag_tot=bag_tot+e.price;
- })
+       let sum=0;
+       let bag_tot=0;
+       items.map((e)=>{
+       let add= Math.floor(e.price-(e.discount/100*e.price))
+       sum=sum+add;
+       bag_tot=bag_tot+e.price;
+    })
 
 
+    function signUp() {
+        var name = document.querySelector('#name').value;
+        document.getElementById("for_name").innerHTML="Name"+" "+":"+name;
+        var mobile = document.querySelector('#mobile').value;
+        document.getElementById("for_mobile").innerHTML="Mobile"+" "+":"+mobile;
+        var postal = document.querySelector('#postal_code').value;
+        document.getElementById("for_pin").innerHTML="Pin"+" "+":"+postal;
+        var address = document.querySelector('#address_aa').value;
+        document.getElementById("for_address").innerHTML="Address"+":"+address;
+       
+      }
 
-    return (
-        <div>
-       <button id="pay_aa"><Link to={"/cart/address/payment/success" } style={{textDecoration:"none",color:"white"}}>Go To sucess</Link></button>
-       <div id="navbar_zzz">
-      <div id="nykaa_img_zzz">
+
+    return(
+<div className="address_body">
+<div id="navbar_bbc">
+      <div id="nykaa_img_bbc">
         <svg xmlns="http://www.w3.org/2000/svg" width="106" height="37">
           <path
             fill="#FC2779"
@@ -30,8 +43,8 @@ export const Payment = ()=>{
           ></path>
         </svg>
       </div>
-      <div id="sub_navbar_zzz">
-        <ul>
+      <div id="sub_navbar_bbc">
+        <ul className="address_li">
           <li>1 - LOGIN</li>
           <li>2 - ADDRESS</li>
           <li>3 - PAYMENT</li>
@@ -39,72 +52,41 @@ export const Payment = ()=>{
       </div>
     </div>
 
-    <div id="outer_zzz">
-      <div id="left_div_zzz">
-        <div>Credit/Debit Card</div>
-        <hr/>
-        <div>UPI</div>
-        <div>GooglePay</div>
-        <div>Net Banking</div>
-        <div>Cash on Delivery</div>
-        <div>Mobile Wallets</div>
+    <div id="outer_bb">
+      <div id="left_div_bbc">
+        <div>New Address</div>
+        <div className="add_address" style={{color:"black"}}>
+        <p id="for_name"></p>
+        <p id="for_mobile"></p>
+        <p id="for_pin"></p>
+        <p id="for_address"></p>
+        </div>
+       
+        <hr />
       </div>
-      <div id="middle_div_zzz">
+      <div id="middle_div_bbc">
         <div>
-          <p>Credit/Debit Card</p>
+          <p>New Address</p>
           <hr />
-         <br></br>
-                <input
-                  type="text"
-                  maxlength="16"
-                  id="number"
-                  className="payment_inputz"
-                  placeholder="Card Number"/>
-                <br />
-
-                <input className="payment_inputz" type="text" placeholder="Name on Card"  id="Name"/>
-                <br />
-
-              
-                <select>
-                  <option value="">Month</option>
-                  <option value="">01-Jan</option>
-                  <option value="">02-Feb</option>
-                  <option value="">03-Mar</option>
-                  <option value="">04-Apr</option>
-                  <option value="">05-May</option>
-                  <option value="">06-June</option>
-                  <option value="">07-July</option>
-                  <option value="">08-Aug</option>
-                  <option value="">09-Sep</option>
-                  <option value="">10-Oct</option>
-                  <option value="">11-Nov</option>
-                  <option value="">12-Dec</option>
-                </select>
-
-                <select>
-                  <option value="">2021</option>
-                  <option value="">2022</option>
-                  <option value="">2023</option>
-                  <option value="">2024</option>
-                  <option value="">2025</option>
-                  <option value="">2026</option>
-                  <option value="">2027</option>
-                  <option value="">2028</option>
-                  <option value="">2029</option>
-                  <option value="">2023</option>
-                </select>
-
-                <input className="payment_inputz" id="cvv" type="text" placeholder="CVV" maxlength="3" />
-
-<<<<<<< HEAD
-          <button id="address_button_zzz"><Link to={"/pro/cart/address/payment/success" } style={{textDecoration:"none",color:"white"}}>PAY NOW</Link></button>
-=======
-          <button id="address_button_zzz"><Link to={"/cart/address/payment/success" } style={{textDecoration:"none",color:"white"}}>PAY NOW</Link></button>
->>>>>>> 19632ef4eae75811974e1380129618b3b5ef34fa
+          <br />
+          <p>India</p>
+          <hr />
+          <input id="name" type="text" placeholder="Enter Name" />
+          <input type="text" id="mobile" placeholder="Enter Mobile Number" />
+          <input type="text" id="postal_code" placeholder="Postal Code" />
+          <textarea
+            id="address_aa"
+            cols="50"
+            rows="5"
+            placeholder="Enter Address"
+          ></textarea>
+          <button id="address_button_bbc" onClick={()=>{
+              signUp();
+            
+          }}>SHIP TO THIS ADDRESS</button>
         </div>
       </div>
-      <div id="right_div_zzz">
+      <div id="right_div_bbc">
         <div>
         <div id="scroll_div_aa">
                 {items.map((e)=>(
@@ -144,7 +126,8 @@ export const Payment = ()=>{
          </div>
             ))}
  </div>
-        {/* payment details */}
+          <div>
+              {/* payment details */}
                  {/* ******* */}
                  <div id="payment_detail_aa">
                 <div className="payment_details_tag_aa">Payment Details</div>
@@ -167,17 +150,28 @@ export const Payment = ()=>{
                   
                 </div>
                 {/* ******* */}
+            <button id="pay_aa"><Link to={"/pro/cart/address/payment" } style={{textDecoration:"none",color:"white"}}>PAY</Link></button>
+          </div>
+          </div>
+         
         </div>
-        
       </div>
     </div>
-    
-    </div>
+
  
-    
-    
-    )
-}
+
+    )}
+
+
+
+
+
+
+
+
+
+    {/* <h1>address</h1> */}
+{/* <button><Link to="/cart/address/payment">Go to Payment..</Link></button> */}
 
 
 
