@@ -1,7 +1,7 @@
-# My Todo App
+# Nykaa-Clone
 
 
-<h3>About this app: 🙌</h3>
+<h3>About project: 🙌</h3>
 It's a web application that focused on selling beauty, wellness and fashion products .
 <h3>It's a Team project❤️</h3>
 <h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
