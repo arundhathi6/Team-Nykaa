@@ -16,6 +16,7 @@ Hi reader, you might have visited, read, and heard about the Nykaa website, Nyka
             <li>Home Page : Nav Bar and landing page</li>
 <!--             <li>Sign-In with OTP Page : </li> -->
 <!--             <li>OTP Sent Page :</li> -->
+          <li>Signup Page :created authenticated signup and login page using backend authentication </li>
             <li>Product Page :  Using MongoDB atlas we have created API to get all products dynamically.</li>
             <li>Checkout Page : products can be added and deleted based on customers needs</li>
             <li>Address Page : Users can add their address details for delivery.</li>
