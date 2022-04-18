@@ -31,8 +31,7 @@ Hi reader, you might have visited, read, and heard about the Nykaa website, Nyka
      <li>NodeJs</li>
             <li>MongoDB</li>
        
-             <li>CSS</li>
-            </ul>
+             <li>CSS</li> </ul>
   <h4>Thes are the short overview of our project and check our works by downloading the files for more understanding and make sure you enable cors policy to view products.</h4>
   <h4>Thank you 🙌</h4>
             
