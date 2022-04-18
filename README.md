@@ -21,6 +21,7 @@ Hi reader, you might have visited, read, and heard about the Nykaa website, Nyka
             <li>Address Page : Users can add their address details for delivery.</li>
             <li>Payment Page : Users can add their payment details.</li>
             <li>Order Successful : You will get an alert for your purchase and be redirected to the home page.</li>
+   </ul>
       
  <h3>Tool kits we used to build this project: 🛠</h3>
   <ul>
