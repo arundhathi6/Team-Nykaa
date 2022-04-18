@@ -1,9 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import {useState,useEffect} from "react";
+import {useNavigate} from "react-router-dom"
 import axios from "axios";
 import "./Register.css";
 function Register() {
+  const navigate = useNavigate()
     const [pass,setPass]=useState("");
     const [repass,setRepass]=useState("");
     const [formData, setFormData]=useState({
@@ -31,7 +33,7 @@ function Register() {
          alert("password not matching");
          return;
      }
-        axios.post('http://localhost:5678/register',formData).then(({data})=>{
+        axios.post('https://authentication-login.herokuapp.com/register',formData).then(({data})=>{
       console.log("data",data)
             localStorage.setItem('user_reg',JSON.stringify(data))
             
@@ -46,7 +48,8 @@ function Register() {
               repassword:''
              
              })
-            window.location.reload()
+            // window.location.reload()
+            navigate("/")
         }).catch((err)=>{
         //localStorage.setItem("Err",JSON.stringify(err))
             alert(err+". "+"Email already exist or invalid credentials!!!")
@@ -80,7 +83,7 @@ function Register() {
         type="email" 
         placeholder="Enter Email" 
         value={formData.email}
-        onChange={change}/>
+        onChange={change}/> 
         <p className="p_yy">Password<span className="span_star">*</span></p>
         <input type="password" 
         id="password" 

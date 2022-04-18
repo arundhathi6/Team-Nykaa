@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import {useState} from "react";
-import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import "./Emailpass.css";
 
@@ -25,7 +25,7 @@ function Emailpass() {
     const submit=(e)=>{
         e.preventDefault()
    
-        axios.post('http://localhost:5678/login',formLogin).then(({data})=>{
+        axios.post('https://authentication-login.herokuapp.com/login',formLogin).then(({data})=>{
       console.log("data",data)
             localStorage.setItem('user_log',JSON.stringify(data))
             
@@ -36,7 +36,7 @@ function Emailpass() {
               password:'',
         
              })
-            navigate("/")
+            navigate("/emailpass")
             //window.location.reload()
         }).catch((err)=>{
         //localStorage.setItem("Err",JSON.stringify(err))
@@ -50,25 +50,25 @@ function Emailpass() {
       
       }
   return (
-    <div id="outer_zzz">
+    <div id="outer_bzzz">
 
-<div className="div_zzz" id="loginpage_zzz">
-  <div className="div_zzz" class="signdiv_zzz">
-    <h1 id="h1_zzz">Sign-In</h1>
+<div className="div_bzzz" id="loginpage_bzzz">
+  <div className="div_bzzz" class="signdiv_bzzz">
+    <h1 id="h1_bzzz">Sign-In</h1>
     <form onSubmit={submit} id="log_form">
-    <p className="p_zzz">Enter Registered Email</p>
+    <p className="p_bzzz">Enter Registered Email</p>
     <input id="email"
         type="email" 
         placeholder="EMAIL" 
         value={formLogin.email}
         onChange={change} />
-    <p className="p_zzz">Enter your Password</p>
+    <p className="p_bzzz">Enter your Password</p>
     <input id="password"
         type="password" 
         placeholder="PASSWORD" 
         value={formLogin.password}
         onChange={change} />
- <button className="button_zzz">LOGIN</button><br/>
+ <button className="button_bzzz">LOGIN</button><br/>
     </form>
     <label>New to Nykaa fashion?<Link to={"/register"}><p>Create new account</p></Link></label>
   </div>

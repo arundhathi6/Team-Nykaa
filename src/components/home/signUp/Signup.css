@@ -1,7 +1,7 @@
-p{
+.p_baaa{
   line-height: 20px;
 }
-  #signup_div_aaa{
+  #signup_div_baaa{
     height: 640px;
     width: 350px;
    margin:auto;
@@ -10,27 +10,27 @@ p{
     margin-top: -20px;
   }
 
-  #signup_div_aaa > div {
+  #signup_div_baaa > div {
     padding-left: 20px;
     padding-right: 20px;
   }
-  #social_div_aaa {
+  #social_div_baaa {
     width: 290px;
     height: 290px;
     margin:auto;
   }
-  .sign_text{
+  .sign_text_baaa{
     font-size: 30px;
     padding-top: 10px;
   }
-  #social_div_aaa > img {
+  #social_div_baaa > img {
  width:100%;
  height:100%;
  margin:auto;
   
   }
 
-  #google_aaa {
+  #google_baaa {
    display:flex;
    padding-left: 25%;
     cursor: pointer;
@@ -43,19 +43,19 @@ p{
       
   }
 
-  #google_aaa > img {
+  #google_baaa > img {
     width: 26px;
     gap: 10px;
     height:24px;
     padding-top: 10px;
     padding-right: 10px;
   }
-  #google{
+  #google_baaa{
     font-size: 20px;
   
 
   }
-  #login_button_aaa {
+  #login_button_baaa {
     margin-top: 20px;
     height: 45px;
     width: 290px;

@@ -28,14 +28,16 @@ export const Navbar = () => {
       </ul>
       <hr></hr>
       <ul className="list1">
-        <li className="list2">Makeup</li>
+
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Makeup</Link></li>
         <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Skin</Link></li>
-        <li className="list2">Hair</li>
-        <li className="list2">Appliances</li>
-        <li className="list2">Personal Care</li>
-        <li className="list2">Natural</li>
-        <li className="list2">Mom & Baby</li>
-        <li className="list2">Health & Wellness</li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Hair</Link></li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Applances</Link></li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Personal care</Link></li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Natural</Link></li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Mom & baby</Link></li>
+        <li className="list2"><Link to={"/pro"} className="list2" style={{textDecoration:"none"}} >Health & wellness</Link></li>
+       
         
       </ul>
     </>

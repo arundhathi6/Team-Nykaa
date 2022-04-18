@@ -50,7 +50,7 @@ export const Login=()=>{
                     <img src="https://www.raqnbeauty.com/wp-content/uploads/2020/06/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt=""/>
                     GOOGLE</div>
             </div>
-            <Link to ={"./emailpass"}  id="login_button_aa"><button>ENTER REGISTERED EMAIL</button></Link>
+            < button id="login_button_aa">ENTER REGISTERED EMAIL</button>
 
             </div>
 

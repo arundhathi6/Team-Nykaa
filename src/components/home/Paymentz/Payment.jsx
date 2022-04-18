@@ -162,7 +162,7 @@ export const Payment = ()=>{
                   </div>
                   
                 </div>
-                {/* ******* */}
+               
         </div>
         
       </div>
