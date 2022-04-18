@@ -7,7 +7,7 @@ It's a web application that focused on selling beauty, wellness and fashion prod
 <img src="https://github.com/arundhathi6/Team-Nykaa/blob/main/src/images/nykaa-2.png"/>
 <img src="https://github.com/arundhathi6/Team-Nykaa/blob/main/src/images/nykaa-3.png"/>
 <img src="https://github.com/arundhathi6/Team-Nykaa/blob/main/src/images/nykaa-4.png"/>
-<h3>It's a Team project❤️</h3>
+
 <h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
 <h3>Our Team Members ❤️</h3>
    <a href="https://github.com/arundhathi6">Arundhathi R Menon</a><br>
