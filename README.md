@@ -2,27 +2,29 @@
 
 
 <h3>About this app: 🙌</h3>
-Hi reader, you might have used or heard about the ToDo List App, It's an app that generally used to maintain day-to-day task or everything that we have to do.
-<h3>It's a solo project❤️</h3>
-<h3>Deployment link : <a href="https://my-todo-application-01.netlify.app/">https://my-todo-application-01.netlify.app/</a></h3>
+It's a web application that focused on selling beauty, wellness and fashion products .
+<h3>It's a Team project❤️</h3>
+<h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
    <h3>Features:</h3>
       <ul>
-            <li> Users can add the todo task.</li>
-            <li> Users can toggle between completed and incompleted task.</li>
-            <li>Users can see all the tasks that were added to the app.</li>
-            <li>Users can edit their todos.</li>
-            <li>Users can delete any todo from the list.</li>
-            <li>Users can clear all their todos.</li></ul>
+            <li> Sign-up : Built Authenticated Sign-up and Login page using nodeJS</li>
+            <li> Home page : Beautiful clone of home page </li>
+            <li> Product page : Built products page after creating API of products using Express.</li>
+            <li> Cart page : Users can see added products in cart page and remove based on their preferences.</li>
+            <li> Address page : Users can add their delivery address for shipping.</li>
+            <li> Payment page :Users can pay online using payment gateway.</li></ul>
 
    
    <h3>Tool kits we used to build this project: 🛠</h3>
   <ul>
-   <li>JavaScript</li>
+ 
    <li>ReactJS</li>
-   <li>MongoDB</li>
-   <li>NodeJS</li>
+   <li>Redux</li>
+   <li>Material UI</li>
+   <li>CSS</li>
    <li>Express</li>
-   <li>CSS</li></ul>
-  <h4>I have created this application for more understanding and learning of Express, MongoDB, React-Redux, axios and usage of http methods in making network requests and not meant for users. This is the short overview of my mini project and check out my works by downloading the files for more understanding.</h4>
+   <li>NodeJS</li>
+   <li>MongoDB</li></ul>
+  <h4>We have created this clone as a part of our constructive week project and this gave us the oppportunity to get more understanding and learning of Express, MongoDB, React-Redux, axios and usage of http methods in making network requests. This is the short overview of our project and check out our works by downloading the files for more understanding.</h4>
   <h4>Thank you 🙌</h4>
 
