@@ -27,10 +27,12 @@ Hi reader, you might have visited, read, and heard about the Nykaa website, Nyka
   <ul>
             <li>ReactJS</li>
             <li>Redux</li>
-            <li>MongoDB Atlas to store product information</li>
-       <li>Heroku to create API</li>
+     <li>Express</li>
+     <li>NodeJs</li>
+            <li>MongoDB</li>
+       
              <li>CSS</li>
-            <li>NodeJs</li></ul>
+            </ul>
   <h4>Thes are the short overview of our project and check our works by downloading the files for more understanding and make sure you enable cors policy to view products.</h4>
   <h4>Thank you 🙌</h4>
             
