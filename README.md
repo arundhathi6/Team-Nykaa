@@ -1,7 +1,7 @@
 # Nykaa-clone
 
 
-<h3>About this app: 🙌</h3>
+<h3>About project: 🙌</h3>
 It's a web application that focused on selling beauty, wellness and fashion products .
 <img src="https://github.com/arundhathi6/Team-Nykaa/blob/main/src/images/nykaa-1.png" />
 <img src="https://github.com/arundhathi6/Team-Nykaa/blob/main/src/images/nykaa-2.png"/>
@@ -13,7 +13,7 @@ It's a web application that focused on selling beauty, wellness and fashion prod
    <a href="https://github.com/arundhathi6">Arundhathi R Menon</a><br>
     <a href="https://github.com/Arvind-Kumar-Mahato">Aravind Kumar</a><br>
      <a href="https://github.com/TanmayShirsat">Tanmay Shirsat</a><br>
-       <a href="https://github.com/aaliyafarhin">aaliya farhin</a><br>
+       <a href="https://github.com/aaliyafarhin">Aaliya farhin</a><br>
       <a href="https://github.com/MohitGupta10">Mohit Gupta</a><br>
    <h3>Features:</h3>
       <ul>
