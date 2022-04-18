@@ -1,4 +1,4 @@
-# My Todo App
+# Nykaa-clone
 
 
 <h3>About this app: 🙌</h3>
