@@ -5,6 +5,12 @@
 It's a web application that focused on selling beauty, wellness and fashion products .
 <h3>It's a Team project❤️</h3>
 <h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
+<h3>Our Team Members ❤️</h3>
+   <a href="https://github.com/arundhathi6">Arundhathi R Menon</a><br>
+    <a href="https://github.com/Arvind-Kumar-Mahato">Aravind Kumar</a><br>
+     <a href="https://github.com/TanmayShirsat">Tanmay Shirsat</a><br>
+       <a href="https://github.com/aaliyafarhin">aaliya farhin</a><br>
+      <a href="https://github.com/MohitGupta10">Mohit Gupta</a><br>
    <h3>Features:</h3>
       <ul>
             <li> Sign-up : Built Authenticated Sign-up and Login page using nodeJS</li>
