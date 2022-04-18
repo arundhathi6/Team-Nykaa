@@ -18,7 +18,7 @@ export const Navbar = () => {
         <h4 className="input">
           <input type="text" placeholder="Serach of Nykaa" />
         </h4>
-        <li className="sign">Account</li>
+        <li className="sign"><Link to={"./signup"}>Account</Link></li>
         <li>
           <img
             className="icon1"

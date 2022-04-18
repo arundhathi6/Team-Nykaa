@@ -1,0 +1,98 @@
+* {
+    font-family: Lato, sans-serif;
+  }
+  #logo_yy {
+    width: 30%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 0;
+  }
+  #logo_yy > img {
+    width: 100%;
+    height: 100%;
+  }
+  #desertcart_yy {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+  }
+  #loginpage_yy {
+    width: 30%;
+    margin-left: 6%;
+    padding: 30px;
+    /* border:1px solid black; */
+    margin-top: 3%;
+    height:550px;
+    
+  }
+
+  #outer_yy {
+    width: 97%;
+    padding: 20px;
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2019-04/19/full/1555694214-0406.jpg?im=Resize,width=1200');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:630px;
+  }
+  
+  .div_yy > input {
+    margin: 5px;
+  }
+  #button_yy {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: #fc2779;
+    border: transparent;
+    border-radius: 30px;
+    padding: 15 15 15 15;
+  }
+  #button_yy:hover {
+    background-color: rgb(3, 146, 241);
+    color: white;
+  }
+  .h1_yy {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size:30px;
+  }
+  .p_yy {
+    font-size: smaller;
+    margin-left: 13px;
+    margin-bottom: 0;
+    /* border:1px solid black; */
+    width:80px;
+  }
+  .pp_yy {
+    font-size: smaller;
+    margin-left: 13px;
+    margin-bottom: 0;
+    /* border:1px solid black; */
+    width:120px;
+  }
+  #register_form>input {
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    border: transparent;
+    padding: 5px;
+    width: 90%;
+    padding-left: 20px;
+    
+  }
+ 
+  .passp_yy {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 11px;
+    color:mediumvioletred;
+    width:250px;
+    font-weight: bolder;
+    padding-left: 18px;
+  }
+  .span_star{
+      color:mediumvioletred;
+      font-weight: bolder;
+  }
