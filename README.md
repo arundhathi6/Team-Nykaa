@@ -3,6 +3,7 @@
 
 <h3>About this app: 🙌</h3>
 It's a web application that focused on selling beauty, wellness and fashion products .
+<img src="https://drive.google.com/file/d/1arEgs8e7IOS7mBAFu8Jbw3vtItuvDXMP/view?usp=sharing" />
 <h3>It's a Team project❤️</h3>
 <h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
 <h3>Our Team Members ❤️</h3>
