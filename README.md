@@ -11,7 +11,7 @@ It's a web application that focused on selling beauty, wellness and fashion prod
 <h3>Deployment link : <a href="https://team-nykaaa.vercel.app/">https://team-nykaaa.vercel.app/</a></h3>
 <h3>Our Team Members ❤️</h3>
    <a href="https://github.com/arundhathi6">Arundhathi R Menon</a><br>
-    <a href="https://github.com/Arvind-Kumar-Mahato">Aravind Kumar</a><br>
+    <a href="https://github.com/Arvind-Kumar-Mahato">Arvind Kumar Mahato</a><br>
      <a href="https://github.com/TanmayShirsat">Tanmay Shirsat</a><br>
        <a href="https://github.com/aaliyafarhin">Aaliya farhin</a><br>
       <a href="https://github.com/MohitGupta10">Mohit Gupta</a><br>
