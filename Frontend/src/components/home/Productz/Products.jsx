@@ -53,7 +53,7 @@ console.log(productz)
 
 
             <p onClick={()=>{
-         axios.get(`https://nyka-clone-api.herokuapp.com/product/${e._id}`)
+         axios.get(`https://nyka-clone-products.onrender.com/product/${e._id}`)
           .then(({data})=>{
             dispatch(addData(data))
              console.log(data);
