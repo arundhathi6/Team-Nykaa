@@ -25,7 +25,7 @@ function Emailpass() {
     const submit=(e)=>{
         e.preventDefault()
    
-        axios.post('https://authentication-login.herokuapp.com/login',formLogin).then(({data})=>{
+        axios.post('https://auth-nyka-clone.onrender.com/login',formLogin).then(({data})=>{
       console.log("data",data)
             localStorage.setItem('user_log',JSON.stringify(data))
             
