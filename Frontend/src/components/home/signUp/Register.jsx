@@ -33,7 +33,7 @@ function Register() {
          alert("password not matching");
          return;
      }
-        axios.post('https://authentication-login.herokuapp.com/register',formData).then(({data})=>{
+        axios.post('https://auth-nyka-clone.onrender.com/register',formData).then(({data})=>{
       console.log("data",data)
             localStorage.setItem('user_reg',JSON.stringify(data))
             
