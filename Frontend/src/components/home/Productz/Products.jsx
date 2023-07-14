@@ -14,7 +14,7 @@ export const Products = ()=>{
    });
 console.log("items..", items);
 const getData = ()=>{
-  axios.get("https://nyka-clone-api.herokuapp.com/product")
+  axios.get("https://nyka-clone-products.onrender.com/product")
   .then(({data})=>{
     setproductz(data)
     //console.log(data)
